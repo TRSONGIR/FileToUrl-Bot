@@ -10,19 +10,18 @@ from aiohttp import web
 from telethon import TelegramClient, events
 
 # Please fill this with IP or domain for your server. The IP is used to generate the links for users
-Domain = "127.0.0.1"
+Domain = "Yzcloud.herokuapp.com"
 Port = 8080
 if Port != 80:
 	Domain += ":" + str(Port)
 
 # These example values won't work. You must get your own api_id and
 # api_hash from https://my.telegram.org, under API Development.
-api_id = 12345
-api_hash = 'abcd'
-bot_token = 'efg'
-
+api_id = 1701599
+api_hash = 'fbebfac41bf59a45c43b9d81b576d035'
+bot_token = '1213170951:AAGPGNiMnMzhVlYyf4ZbX_VTN7r4qdmxvYc'
 # Set the admin of the bot that can use it. These values must be your ID. Get it from @myidbot
-admins = {}
+admins = {967787441}
 
 # This is the dictionary that is used for downloading files
 # The keys are uuid4 of files given to user
